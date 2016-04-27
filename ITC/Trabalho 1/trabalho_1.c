@@ -6,6 +6,7 @@
 #include "automato.h"
 
 int main(){
-
+	Automato *dnf;
+	dnf = cria();
 	return 0;
 }
