@@ -24,11 +24,12 @@ typedef struct Automato{
 
 //Cabecalho das funcoes de automato;
 Automato *cria();
-Automato *set_Inicio(Automato *afd, Estado *inicio);
-Automato *set_Aceitacao(Automato *afd, Estado *aceitacao);
+int set_Inicio(Automato *afd, Estado *inicio);
+int set_Aceitacao(Automato *afd, Estado *aceitacao);
 
 //Cabecalho das funcoes do estado;
-
+Estado *cria();
+void set_Estado(Automato *afd, Estado *estado);
 
 //Cabecalho das funcoes do simbolo;
 

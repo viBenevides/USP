@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include "automato.h"
 
+//Cria o automato sem nada setado;
 Automato *cria(){
 	Automato *aux;
 	
@@ -13,3 +14,7 @@ Automato *cria(){
 	
 	return aux;
 }
+
+//Insere o estado inicial do automato;
+int set_Inicio(Automato *afd, Estado *inicio){
+	
